@@ -22,6 +22,27 @@ public class ReverseLinkList extends LinkedIntList{
    
    
    }
+   
+   private static class ListNode {
+        public final int data;
+        public ListNode next;
+
+        // post: Constructs a node with data 0 and null link
+        public ListNode() {
+            this(0, null);
+        }
+
+        // post: Constructs a node with given data and null link
+        public ListNode(int data) {
+            this(data, null);
+        }
+
+        // post: Constructs a node with given data and given link
+        public ListNode(int data, ListNode next) {
+            this.data = data;
+            this.next = next;
+        }
+    }
 
 
 
