@@ -1,3 +1,4 @@
+/* @Author- Abdiwahid Bishar Hajir */
 public class ReverseLinkList extends LinkedIntList{
    private ListNode front;
    public static void main(String[] args){
